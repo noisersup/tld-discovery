@@ -31,7 +31,7 @@ func main(){
 		for _,sTld := range succeedTlds {
 			fmt.Printf("%s.%s\n",os.Args[1],sTld)
 		}
-		fmt.Printf("%d/%d\n",i,length)
+		fmt.Printf("%d/%d scanned TLDs\n",i,length)
 	}
 }
 
